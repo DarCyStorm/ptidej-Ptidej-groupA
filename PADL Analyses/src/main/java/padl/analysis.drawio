@@ -1,0 +1,520 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" background="none" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="node16" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AACBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ AACBuilder(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ visit(IAssociation): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;- close(IFirstClassEntity): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1116" y="4427" width="384" height="1177" as="geometry" />
+    </mxCell>
+    <mxCell id="node5" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AACRelationshipsAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ AACRelationshipsAnalysis(): &lt;br/&gt;+ AACRelationshipsAnalysis(boolean): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel?&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; helpURL: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1259" y="5771" width="299" height="169" as="geometry" />
+    </mxCell>
+    <mxCell id="node25" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AACRemover&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ AACRemover(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ open(IPackage): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;- close(IFirstClassEntity): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ close(IMemberClass): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="896" y="3147" width="384" height="1177" as="geometry" />
+    </mxCell>
+    <mxCell id="node10" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AnalysesRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- AnalysesRepository(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- analyses: IAnalysis[]&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ toString(): String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; instance: AnalysesRepository&lt;br/&gt; analyses: IAnalysis[]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="255" y="5768" width="226" height="174" as="geometry" />
+    </mxCell>
+    <mxCell id="node12" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BCEL2PADLAdaptor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ BCEL2PADLAdaptor(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ adapt(JavaClass): String&lt;br/&gt;+ adapt(JavaClass, Method): String&lt;br/&gt;+ adapt(Field): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="142" y="1425" width="252" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="node18" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BCELInstructionFinder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ BCELInstructionFinder(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- adaptor: BCEL2PADLAdaptor&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ visitConstantLong(ConstantLong): void&lt;br/&gt;+ visitConstantValue(ConstantValue): void&lt;br/&gt;+ visitInnerClasses(InnerClasses): void&lt;br/&gt;+ visitCodeException(CodeException): void&lt;br/&gt;+ visitField(Field): void&lt;br/&gt;+ visitStackMap(StackMap): void&lt;br/&gt;+ visitConstantFieldref(ConstantFieldref): void&lt;br/&gt;+ visitSourceFile(SourceFile): void&lt;br/&gt;+ visitInnerClass(InnerClass): void&lt;br/&gt;+ visitJavaClass(JavaClass): void&lt;br/&gt;+ visitExceptionTable(ExceptionTable): void&lt;br/&gt;+ visitLocalVariableTable(LocalVariableTable): void&lt;br/&gt;+ visitConstantInteger(ConstantInteger): void&lt;br/&gt;+ visitConstantPool(ConstantPool): void&lt;br/&gt;- isInstruction(String): boolean&lt;br/&gt;+ visitLineNumberTable(LineNumberTable): void&lt;br/&gt;- getCodeLines(Code): Integer&lt;br/&gt;+ getInstructionCount(String, String): Integer&lt;br/&gt;+ visitConstantUtf8(ConstantUtf8): void&lt;br/&gt;+ visitCode(Code): void&lt;br/&gt;+ visitConstantNameAndType(ConstantNameAndType): void&lt;br/&gt;+ toString(): String&lt;br/&gt;+ visitConstantFloat(ConstantFloat): void&lt;br/&gt;+ visitConstantMethodref(ConstantMethodref): void&lt;br/&gt;+ visitStackMapEntry(StackMapEntry): void&lt;br/&gt;+ visitConstantString(ConstantString): void&lt;br/&gt;+ visitSignature(Signature): void&lt;br/&gt;+ visitConstantDouble(ConstantDouble): void&lt;br/&gt;+ visitLineNumber(LineNumber): void&lt;br/&gt;+ visitLocalVariable(LocalVariable): void&lt;br/&gt;- methodMap(String): Map&lt;br/&gt;+ visitMethod(Method): void&lt;br/&gt;+ visitConstantInterfaceMethodref(ConstantInterfaceMethodref): void&lt;br/&gt;+ visitUnknown(Unknown): void&lt;br/&gt;+ visitConstantClass(ConstantClass): void&lt;br/&gt;+ visitDeprecated(Deprecated): void&lt;br/&gt;+ visitSynthetic(Synthetic): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; adaptor: BCEL2PADLAdaptor&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-165" y="2028" width="466" height="1014" as="geometry" />
+    </mxCell>
+    <mxCell id="node15" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CadinalityOneAccessorsData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CadinalityOneAccessorsData(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ matches(String, IField): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; cardinality: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1950" y="1275" width="276" height="131" as="geometry" />
+    </mxCell>
+    <mxCell id="node0" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CardinalityManyAccessorsData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CardinalityManyAccessorsData(IAbstractModel): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ matches(String, IField): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; cardinality: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="2114" y="1435" width="349" height="131" as="geometry" />
+    </mxCell>
+    <mxCell id="node9" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ContainerRelationshipAnalyzer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- ContainerRelationshipAnalyzer(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- getArgumentTypes(IMethod): char[][]&lt;br/&gt;- isGettersMany(Map, int, String, String, char[][]): boolean&lt;br/&gt;- matchPairs(IFactory, IAbstractModel, IFirstClassEntity, Map, Map, IAccessorsData): void&lt;br/&gt;- findPairsMany(IFirstClassEntity, Map, Map): void&lt;br/&gt;- replaceMethodByGetterOrSetter(IFirstClassEntity, Map): void&lt;br/&gt;+ recognizeContainerAggregations(IFirstClassEntity, IAbstractModel): void&lt;br/&gt;- isGettersOne(Map, int, String, String, char[][]): boolean&lt;br/&gt;- isSettersOne(Map, int, String, String, char[][]): boolean&lt;br/&gt;- findPairsOne(IFirstClassEntity, Map, Map): void&lt;br/&gt;- createGetterOrSetter(IMethod, int, int): IMethod?&lt;br/&gt;- isSettersMany(Map, int, String, String, char[][]): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1861" y="1669" width="455" height="332" as="geometry" />
+    </mxCell>
+    <mxCell id="node13" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DRAMAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ DRAMAnalysis(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel&lt;br/&gt;+ modifyTraceDynamic(): void&lt;br/&gt;+ comparaison(): void&lt;br/&gt;+ lookForEntityMap(EntityMap): EntityMap?&lt;br/&gt;+ computeSimpleName(String): String&lt;br/&gt;+ finalTrace(): void&lt;br/&gt;+ finalTrace1(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; helpURL: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="517" y="5971" width="303" height="289" as="geometry" />
+    </mxCell>
+    <mxCell id="node21" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DesignLevelModelAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ DesignLevelModelAnalysis(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; helpURL: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1742" y="5783" width="292" height="145" as="geometry" />
+    </mxCell>
+    <mxCell id="node3" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EntityList&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ EntityList(String, String, String, String, String): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="523" y="3704" width="330" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="node23" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EntityMap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ EntityMap(String, String, String, String): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="362" y="4984" width="292" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="node17" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;IAccessorsData&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ matches(String, IField): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; cardinality: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1967" y="529" width="242" height="115" as="geometry" />
+    </mxCell>
+    <mxCell id="node6" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;IAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="722" y="4969" width="292" height="115" as="geometry" />
+    </mxCell>
+    <mxCell id="node24" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InstructionSetter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ InstructionSetter(BCELInstructionFinder): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ close(ISetter): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;- open(IOperation): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-164" y="4427" width="384" height="1177" as="geometry" />
+    </mxCell>
+    <mxCell id="node11" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ModelAnnotatorLOCAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ModelAnnotatorLOCAnalysis(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ annotateFromDirs(String[], IAbstractModel): void&lt;br/&gt;- annotateFromDirs0(String, IAbstractModel): void&lt;br/&gt;+ invoke(IAbstractModel): IAbstractModel&lt;br/&gt;+ annotateFromJARs(String[], IAbstractModel): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-69" y="6019" width="355" height="193" as="geometry" />
+    </mxCell>
+    <mxCell id="node7" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PackageIdentifierAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ PackageIdentifierAnalysis(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel&lt;br/&gt;- getPackageName(IFirstClassEntity): String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1074" y="6043" width="308" height="145" as="geometry" />
+    </mxCell>
+    <mxCell id="node14" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PlantUMLGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ PlantUMLGenerator(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ visit(IRelationship): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ visit(IFirstClassEntity): void&lt;br/&gt;+ close(IMemberClass): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; code: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1536" y="-13" width="384" height="1177" as="geometry" />
+    </mxCell>
+    <mxCell id="node2" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RelationshipAnalyzer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ RelationshipAnalyzer(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ recognizeRelationships(IAbstractModel, IFirstClassEntity, IOperation): void&lt;br/&gt;- addRelationship(IFirstClassEntity, IRelationship): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="769" y="5797" width="439" height="125" as="geometry" />
+    </mxCell>
+    <mxCell id="node22" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLAnalysis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLAnalysis(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ invoke(IAbstractModel): IAbstractModel&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; helpURL: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1502" y="6043" width="292" height="145" as="geometry" />
+    </mxCell>
+    <mxCell id="node8" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLDataTypeCleaner&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLDataTypeCleaner(IFactory, IIdiomLevelModel, SystematicUMLStatistics): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- open(IFirstClassEntity): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;- areAllSuperEntitiesDataTypes(IFirstClassEntity): boolean&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ close(IClass): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1748" y="4415" width="440" height="1201" as="geometry" />
+    </mxCell>
+    <mxCell id="node4" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLElementGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLElementGenerator(IFactory, IIdiomLevelModel, SystematicUMLStatistics): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ close(IAbstractModel): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;- visit(IRelationship): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;- open(IFirstClassEntity): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1990" y="3135" width="437" height="1201" as="geometry" />
+    </mxCell>
+    <mxCell id="node1" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLEntityGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLEntityGenerator(IFactory, IIdiomLevelModel, SystematicUMLStatistics): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ close(IDelegatingMethod): void&lt;br/&gt;- open(): void&lt;br/&gt;+ open(IInterface): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;- close(IFirstClassEntity, IFirstClassEntity): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ reset(): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ close(IMemberInterface): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="2472" y="3135" width="432" height="1201" as="geometry" />
+    </mxCell>
+    <mxCell id="node19" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLOperationGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLOperationGenerator(IFactory, IIdiomLevelModel, SystematicUMLStatistics): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ reset(): void&lt;br/&gt;- isMethodOverLoaded(IMethod, IFirstClassEntity): boolean&lt;br/&gt;+ close(IGetter): void&lt;br/&gt;+ visit(IField): void&lt;br/&gt;+ open(IAbstractModel): void&lt;br/&gt;+ open(IGhost): void&lt;br/&gt;+ close(IMemberClass): void&lt;br/&gt;+ visit(IAssociation): void&lt;br/&gt;+ visit(IContainerAggregation): void&lt;br/&gt;+ open(IMemberGhost): void&lt;br/&gt;+ close(IMethod): void&lt;br/&gt;+ close(IConstructor): void&lt;br/&gt;+ close(IPackage): void&lt;br/&gt;+ close(IPackageDefault): void&lt;br/&gt;+ close(IClass): void&lt;br/&gt;+ open(IClass): void&lt;br/&gt;+ open(IMemberInterface): void&lt;br/&gt;+ open(IPackage): void&lt;br/&gt;+ visit(IContainerComposition): void&lt;br/&gt;+ open(IDesignMotifModel): void&lt;br/&gt;+ close(ISetter): void&lt;br/&gt;+ close(IGhost): void&lt;br/&gt;+ close(IInterface): void&lt;br/&gt;- open(IFirstClassEntity): void&lt;br/&gt;+ close(IDelegatingMethod): void&lt;br/&gt;+ open(IGetter): void&lt;br/&gt;- setMethodAsOperation(char[], IFirstClassEntity): void&lt;br/&gt;+ close(IMemberGhost): void&lt;br/&gt;+ open(IDelegatingMethod): void&lt;br/&gt;+ open(IMemberClass): void&lt;br/&gt;+ visit(IComposition): void&lt;br/&gt;+ close(IAbstractModel): void&lt;br/&gt;- heuristic2(IMethod): void&lt;br/&gt;+ open(IMethod): void&lt;br/&gt;+ visit(IUseRelationship): void&lt;br/&gt;+ unknownConstituentHandler(String, IConstituent): void&lt;br/&gt;+ visit(IPrimitiveEntity): void&lt;br/&gt;- heuristic1(IMethod): void&lt;br/&gt;+ visit(IAggregation): void&lt;br/&gt;+ open(IPackageDefault): void&lt;br/&gt;+ close(IDesignMotifModel): void&lt;br/&gt;+ open(IConstructor): void&lt;br/&gt;+ visit(IParameter): void&lt;br/&gt;+ visit(ICreation): void&lt;br/&gt;+ open(ISetter): void&lt;br/&gt;+ visit(IMethodInvocation): void&lt;br/&gt;+ close(IMemberInterface): void&lt;br/&gt;+ open(IInterface): void&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name: String&lt;br/&gt; result: Object&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="2231" y="4379" width="435" height="1273" as="geometry" />
+    </mxCell>
+    <mxCell id="node26" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SystematicUMLStatistics&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SystematicUMLStatistics(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ templateMethodRecognized(IMethod): void&lt;br/&gt;+ operationRecognized(IMethod): void&lt;br/&gt;+ toString(): String&lt;br/&gt;+ utilityClassRecognized(IFirstClassEntity): void&lt;br/&gt;+ dataTypeRecognized(IFirstClassEntity): void&lt;br/&gt;+ typeRecognized(IFirstClassEntity): void&lt;br/&gt;+ enumerationRecognized(IFirstClassEntity): void&lt;br/&gt;+ dataTypeUnRecognized(IFirstClassEntity): void&lt;br/&gt;+ implementationClassRecognized(IFirstClassEntity): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1634" y="2393" width="389" height="284" as="geometry" />
+    </mxCell>
+    <mxCell id="node20" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UnsupportedSourceModelException&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ UnsupportedSourceModelException(): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="1363" y="3704" width="331" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="edge20" edge="1" value="" parent="1" source="node5" target="node16" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1483" y="5735" />
+          <mxPoint x="1648" y="5735" />
+          <mxPoint x="1648" y="5695" />
+          <mxPoint x="1308" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label122" parent="edge20" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1596" y="5706" as="geometry" />
+    </mxCell>
+    <mxCell id="edge14" edge="1" value="" parent="1" source="node5" target="node25" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1483" y="5735" />
+          <mxPoint x="1648" y="5735" />
+          <mxPoint x="1648" y="5695" />
+          <mxPoint x="1088" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label86" parent="edge14" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1596" y="5686" as="geometry" />
+    </mxCell>
+    <mxCell id="edge6" edge="1" value="" parent="1" source="node5" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1333" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge19" edge="1" value="" parent="1" source="node5" target="node20" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1483" y="5735" />
+          <mxPoint x="1648" y="5735" />
+          <mxPoint x="1648" y="3795" />
+          <mxPoint x="1528" y="3795" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label116" parent="edge19" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1596" y="4756" as="geometry" />
+    </mxCell>
+    <mxCell id="edge16" edge="1" value="" parent="1" source="node10" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.167;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="312" y="5655" />
+          <mxPoint x="771" y="5655" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label96" parent="edge16" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="300" y="5740" as="geometry" />
+    </mxCell>
+    <mxCell id="label100" parent="edge16" vertex="1" connectable="0" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="761" y="5111" as="geometry" />
+    </mxCell>
+    <mxCell id="label101" parent="edge16" vertex="1" connectable="0" value="analyses" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="771" y="5066" as="geometry" />
+    </mxCell>
+    <mxCell id="edge26" edge="1" value="" parent="1" source="node10" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="425" y="5695" />
+          <mxPoint x="868" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label158" parent="edge26" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="731" y="5676" as="geometry" />
+    </mxCell>
+    <mxCell id="edge13" edge="1" value="" parent="1" source="node18" target="node12" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.250;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="68" y="1975" />
+          <mxPoint x="205" y="1975" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label78" parent="edge13" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="131" y="1957" as="geometry" />
+    </mxCell>
+    <mxCell id="label82" parent="edge13" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="193" y="1570" as="geometry" />
+    </mxCell>
+    <mxCell id="label83" parent="edge13" vertex="1" connectable="0" value="adaptor" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="205" y="1570" as="geometry" />
+    </mxCell>
+    <mxCell id="edge1" edge="1" value="" parent="1" source="node15" target="node17" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge0" edge="1" value="" parent="1" source="node0" target="node17" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="2288" y="1255" />
+          <mxPoint x="2088" y="1255" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge28" edge="1" value="" parent="1" source="node9" target="node15" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label170" parent="edge28" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2036" y="1523" as="geometry" />
+    </mxCell>
+    <mxCell id="edge9" edge="1" value="" parent="1" source="node9" target="node0" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="2088" y="1635" />
+          <mxPoint x="2288" y="1635" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label56" parent="edge9" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2162" y="1616" as="geometry" />
+    </mxCell>
+    <mxCell id="edge18" edge="1" value="" parent="1" source="node13" target="node3" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="592" y="5935" />
+          <mxPoint x="508" y="5935" />
+          <mxPoint x="508" y="5675" />
+          <mxPoint x="688" y="5675" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label110" parent="edge18" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="456" y="5752" as="geometry" />
+    </mxCell>
+    <mxCell id="edge17" edge="1" value="" parent="1" source="node13" target="node23" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="592" y="5935" />
+          <mxPoint x="508" y="5935" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label104" parent="edge17" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="540" y="5926" as="geometry" />
+    </mxCell>
+    <mxCell id="edge4" edge="1" value="" parent="1" source="node13" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="744" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge2" edge="1" value="" parent="1" source="node21" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1815" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge21" edge="1" value="" parent="1" source="node21" target="node20" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1961" y="5635" />
+          <mxPoint x="1648" y="5635" />
+          <mxPoint x="1648" y="3795" />
+          <mxPoint x="1528" y="3795" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label128" parent="edge21" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1596" y="4706" as="geometry" />
+    </mxCell>
+    <mxCell id="edge29" edge="1" value="" parent="1" source="node24" target="node18" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="28" y="4395" />
+          <mxPoint x="-172" y="4395" />
+          <mxPoint x="-172" y="3055" />
+          <mxPoint x="-192" y="3055" />
+          <mxPoint x="-192" y="1995" />
+          <mxPoint x="68" y="1995" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label174" parent="edge29" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-128" y="4377" as="geometry" />
+    </mxCell>
+    <mxCell id="label178" parent="edge29" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-3" y="1977" as="geometry" />
+    </mxCell>
+    <mxCell id="label179" parent="edge29" vertex="1" connectable="0" value="instFinder" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="68" y="2002" as="geometry" />
+    </mxCell>
+    <mxCell id="edge10" edge="1" value="" parent="1" source="node11" target="node12" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="108" y="5755" />
+          <mxPoint x="248" y="5755" />
+          <mxPoint x="248" y="5635" />
+          <mxPoint x="328" y="5635" />
+          <mxPoint x="328" y="2515" />
+          <mxPoint x="331" y="2515" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label62" parent="edge10" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="262" y="5616" as="geometry" />
+    </mxCell>
+    <mxCell id="edge23" edge="1" value="" parent="1" source="node11" target="node18" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="108" y="5755" />
+          <mxPoint x="248" y="5755" />
+          <mxPoint x="248" y="4415" />
+          <mxPoint x="68" y="4415" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label140" parent="edge23" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="56" y="5833" as="geometry" />
+    </mxCell>
+    <mxCell id="edge31" edge="1" value="" parent="1" source="node11" target="node18" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.167;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-10" y="5995" />
+          <mxPoint x="-192" y="5995" />
+          <mxPoint x="-192" y="4395" />
+          <mxPoint x="-172" y="4395" />
+          <mxPoint x="-172" y="3055" />
+          <mxPoint x="-192" y="3055" />
+          <mxPoint x="-192" y="1995" />
+          <mxPoint x="68" y="1995" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label186" parent="edge31" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-62" y="5977" as="geometry" />
+    </mxCell>
+    <mxCell id="label190" parent="edge31" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-68" y="1977" as="geometry" />
+    </mxCell>
+    <mxCell id="label191" parent="edge31" vertex="1" connectable="0" value="instFinder" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="-172" y="3046" as="geometry" />
+    </mxCell>
+    <mxCell id="edge3" edge="1" value="" parent="1" source="node11" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.833;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="226" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge22" edge="1" value="" parent="1" source="node11" target="node24" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="108" y="5755" />
+          <mxPoint x="248" y="5755" />
+          <mxPoint x="248" y="5635" />
+          <mxPoint x="28" y="5635" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label134" parent="edge22" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="196" y="5666" as="geometry" />
+    </mxCell>
+    <mxCell id="edge5" edge="1" value="" parent="1" source="node7" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1228" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge7" edge="1" value="" parent="1" source="node22" target="node6" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;strokeColor=#008200;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.833;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1575" y="5715" />
+          <mxPoint x="968" y="5715" />
+          <mxPoint x="968" y="5095" />
+          <mxPoint x="965" y="5095" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge12" edge="1" value="" parent="1" source="node22" target="node8" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="5695" />
+          <mxPoint x="1968" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label74" parent="edge12" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1669" y="5793" as="geometry" />
+    </mxCell>
+    <mxCell id="edge25" edge="1" value="" parent="1" source="node22" target="node4" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="5695" />
+          <mxPoint x="2208" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label152" parent="edge25" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1782" y="5676" as="geometry" />
+    </mxCell>
+    <mxCell id="edge32" edge="1" value="" parent="1" source="node22" target="node1" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="5695" />
+          <mxPoint x="2688" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label194" parent="edge32" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1669" y="5841" as="geometry" />
+    </mxCell>
+    <mxCell id="edge24" edge="1" value="" parent="1" source="node22" target="node19" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="5695" />
+          <mxPoint x="2448" y="5695" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label146" parent="edge24" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1676" y="5686" as="geometry" />
+    </mxCell>
+    <mxCell id="edge30" edge="1" value="" parent="1" source="node22" target="node26" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.250;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="4395" />
+          <mxPoint x="1731" y="4395" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label182" parent="edge30" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1676" y="5066" as="geometry" />
+    </mxCell>
+    <mxCell id="edge11" edge="1" value="" parent="1" source="node22" target="node20" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1721" y="5755" />
+          <mxPoint x="1728" y="5755" />
+          <mxPoint x="1728" y="5655" />
+          <mxPoint x="1648" y="5655" />
+          <mxPoint x="1648" y="3795" />
+          <mxPoint x="1528" y="3795" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label68" parent="edge11" vertex="1" connectable="0" value="«create»" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1676" y="5646" as="geometry" />
+    </mxCell>
+    <mxCell id="edge8" edge="1" value="" parent="1" source="node8" target="node26" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1968" y="3095" />
+          <mxPoint x="2448" y="3095" />
+          <mxPoint x="2448" y="2715" />
+          <mxPoint x="1925" y="2715" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label48" parent="edge8" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1956" y="4391" as="geometry" />
+    </mxCell>
+    <mxCell id="label52" parent="edge8" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2006" y="2697" as="geometry" />
+    </mxCell>
+    <mxCell id="label53" parent="edge8" vertex="1" connectable="0" value="statistics" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1986" y="2715" as="geometry" />
+    </mxCell>
+    <mxCell id="edge27" edge="1" value="" parent="1" source="node1" target="node26" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="2688" y="3095" />
+          <mxPoint x="2448" y="3095" />
+          <mxPoint x="2448" y="2715" />
+          <mxPoint x="1925" y="2715" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label162" parent="edge27" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2676" y="3106" as="geometry" />
+    </mxCell>
+    <mxCell id="label166" parent="edge27" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2094" y="2697" as="geometry" />
+    </mxCell>
+    <mxCell id="label167" parent="edge27" vertex="1" connectable="0" value="statistics" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1925" y="2682" as="geometry" />
+    </mxCell>
+    <mxCell id="edge15" edge="1" value="" parent="1" source="node19" target="node26" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=diamondThinstartSize=12;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="2448" y="2715" />
+          <mxPoint x="1925" y="2715" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="label90" parent="edge15" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2436" y="4355" as="geometry" />
+    </mxCell>
+    <mxCell id="label94" parent="edge15" vertex="1" connectable="0" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="2024" y="2697" as="geometry" />
+    </mxCell>
+    <mxCell id="label95" parent="edge15" vertex="1" connectable="0" value="statistics" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;">
+      <mxGeometry x="1925" y="2706" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
